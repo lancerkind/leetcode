@@ -1,5 +1,5 @@
 import pytest
-from SlidingWindow.AverageRadius import Solution
+from .Average_Radius import Solution
 
 @pytest.fixture
 def solution(): return Solution()

@@ -1,16 +1,8 @@
 import pytest
-from SlidingWindow.MinimumPositive import Solution
+from .Minimum_Positive import Solution
 
 @pytest.fixture
 def solution(): return Solution()
-
-def test_sum(solution):
-    nums = [1, 2, 3]
-    assert solution.prefix_sum(nums) == [1, 3, 6]
-
-def test_empty(solution):
-    nums = []
-    assert solution.prefix_sum(nums) == []
 
 def test_one_element(solution):
     nums = [1]

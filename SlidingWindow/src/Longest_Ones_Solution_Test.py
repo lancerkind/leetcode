@@ -1,5 +1,5 @@
 import pytest
-from SlidingWindow.LongestOnesSolution import Solution
+from .Longest_Ones_Solution import Solution
 
 @pytest.fixture
 def solution(): return Solution()
